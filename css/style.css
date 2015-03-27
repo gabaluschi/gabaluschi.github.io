@@ -2,14 +2,7 @@ body {
 	background-color: blue;
 }
 
-title {
-	color:white;
+h1, p {
+	color: yellow;
 }
 
-h1 {
-	color: white;
-}
-
-p {
-	color: white;
-}
