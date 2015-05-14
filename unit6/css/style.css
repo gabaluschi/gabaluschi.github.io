@@ -48,3 +48,22 @@ h1 {
 	filter: alpha(opacity=40);
 }
 
+#image2 {
+	background-image: url("../images/image2.jpg");
+	float: left;
+}
+
+#image2:hover{
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+#image3 {
+	background-image: url("../images/image3.png");
+	float: left;
+}
+
+#image3:hover{
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
