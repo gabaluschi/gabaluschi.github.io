@@ -13,7 +13,7 @@ body {
 }
 
 .left {
-	background: url("images/logo.png");
+	background: url('images/logo.png');
 	float: left;
 }
 
@@ -27,7 +27,7 @@ h1 {
 	font-family: 'Rufina', serif;
 }
 #image1 {
-	background-image: url("images/image1.png");
+	background-image: url("..images/logo.png");
 	float: left;
 }
 #image1:hover {
