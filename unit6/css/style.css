@@ -12,3 +12,7 @@ body {
 background: url(images/logo.png);
 	float: left;
 }
+
+.right {
+	float: right;
+}
