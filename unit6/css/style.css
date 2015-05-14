@@ -24,11 +24,12 @@ body {
 .clearfix: 
 
 h1 {
-	font-family: 'Rufina', serif;
-	color: #000;
-	font-weight: bold;
 
+	font-family: 'Rufina', serif;
+	color: #fff;
+	font-weight: bold;
 }
+
 #image1 {
 	width: 350px;
 	background-image: url("images/image1.png")
