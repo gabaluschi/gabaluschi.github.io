@@ -19,3 +19,14 @@ body {
 }
 
 .clearfix: 
+
+h1 {
+	font-family: 'Rufina', serif;
+}
+#image1 {
+	float: left;
+}
+#image1:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
