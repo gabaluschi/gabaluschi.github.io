@@ -1,5 +1,6 @@
 body {
-	background-image: url(images/image1.png);
+	
+	background-image: url("images/image1.png");
 
 }
 
@@ -9,10 +10,12 @@ body {
 }
 
 .left {
-	background: url(images/logo.png);
+	background: url("images/logo.png");
 	float: left;
 }
 
 .right {
 	float: right;
 }
+
+.clearfix: 
