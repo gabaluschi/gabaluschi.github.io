@@ -1,9 +1,14 @@
 body {
-	background: url(images/Unit6middleimg copy.png);
+	background: url(images/image1.png);
 
 }
 
 .wrapper {
 	width: 600px;
 	margin: 0 auto;
+}
+
+.left {
+background: url(images/logo.png);
+	float: left;
 }
