@@ -34,7 +34,7 @@ h1 {
 
 #image1 {
 	width: 350px;
-	background-image: url("../images/image1.png")
+	background-image: url("../images/image1.png");
 	float: left;
 }
 #image1:hover {
