@@ -1,7 +1,8 @@
 
 body {
 	
-	background-image: url("images/image1.png");
+	background-image: 
+		url("images/image1.png");
 	background-color: black;
 
 }
@@ -26,6 +27,7 @@ h1 {
 	font-family: 'Rufina', serif;
 }
 #image1 {
+	background-image: url("images/image1.png");
 	float: left;
 }
 #image1:hover {
