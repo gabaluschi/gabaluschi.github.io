@@ -1,8 +1,6 @@
 
 body {
 	
-	background-image: 
-		url("../images/image2.jpg");
 	background-color: #000;
 
 }
@@ -24,10 +22,14 @@ body {
 .clearfix: 
 
 h1 {
-
-	font-family: 'Rufina', serif;
+	margin: 0 0 0 0;
+	padding-top:200px;
+	display: block;
+	font-size: 4em;
+	text-transform: uppercase;
 	color: #fff;
 	font-weight: bold;
+	font-family: 'Rufina', serif;
 }
 
 #image1 {
@@ -36,6 +38,11 @@ h1 {
 	float: left;
 }
 #image1:hover {
-	opacity: 1;
-	filter: alpha(opacity=100);
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+header {
+	display:table-cell;
+	vertical-align: middle;
 }
