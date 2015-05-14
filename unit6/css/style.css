@@ -2,7 +2,7 @@
 body {
 	
 	background-image: 
-		url("images/image2.jpg");
+		url("../images/image2.jpg");
 	background-color: #000;
 
 }
@@ -13,7 +13,7 @@ body {
 }
 
 .left {
-	background: url('images/logo.png');
+	background: url("../images/logo.png");
 	float: left;
 }
 
@@ -32,7 +32,7 @@ h1 {
 
 #image1 {
 	width: 350px;
-	background-image: url("images/image1.png")
+	background-image: url("../images/image1.png")
 	float: left;
 }
 #image1:hover {
