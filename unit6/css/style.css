@@ -3,7 +3,7 @@ body {
 	
 	background-image: 
 		url("images/image1.png");
-	background-color: black;
+	background-color: blue;
 
 }
 
@@ -25,6 +25,8 @@ body {
 
 h1 {
 	font-family: 'Rufina', serif;
+	color: #fff;
+
 }
 #image1 {
 	background-image: url("..images/logo.png");
