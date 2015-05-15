@@ -3,6 +3,8 @@ body {
 	
 	background-color: #000;
 	font-weight: 1.5em;
+	display: block;
+	font-family: 'Rufina', serif;
 
 }
 
@@ -11,22 +13,24 @@ div {
 }
 
 
-.wrapper {
-	width: 600px;
+#wrapper {
+	width: 100%;
 	margin: 0 auto;
+	background color: #fffff;
 }
 
 .left {
+	margin-left: 20px;
 	float: left;
 }
 
 .right {
+	margin-right:20px;
 	float: right;
-	font-color: #fff;
 }
 
 img {
-	display: inline-block;
+	display: block;
 }
 
 h1 {
@@ -42,6 +46,7 @@ h1 {
 #image1 {
 	background-image: url("../images/image1.png");
 	float: left;
+	display: block;
 }
 
 
@@ -53,7 +58,7 @@ h1 {
 */
 
 
-
+/*
 #image a {
 	display: inline-block;
 	padding: 50px;
@@ -64,10 +69,12 @@ h1 {
 	color: transparent;
 	font-weight: bold;
 }
+*/
 
 
 #image2 {
 	background-image: url("../images/image2.jpg");
+	display: block;
 	float: left;
 }
 
