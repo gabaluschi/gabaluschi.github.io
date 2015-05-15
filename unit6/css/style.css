@@ -44,9 +44,11 @@ h1 {
 }
 
 #image1 {
+	width:350px;
 	background-image: url("../images/image1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 	float: left;
-	display: block;
 }
 
 
@@ -73,6 +75,7 @@ h1 {
 
 
 #image2 {
+	width: 100%;
 	background-image: url("../images/image2.jpg");
 	display: block;
 	float: left;
