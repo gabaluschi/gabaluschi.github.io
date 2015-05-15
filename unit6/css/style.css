@@ -24,6 +24,7 @@ div {
 }
 
 .left {
+	background-image: url("../images/logo.png");
 	margin-left: 20px;
 	float: left;
 	color: white;
