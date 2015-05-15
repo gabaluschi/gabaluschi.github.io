@@ -26,8 +26,6 @@ div {
 .left {
 	width: 25%;
 	background-image: url("../images/logo.png");
-	background-repeat: no-repeat;
-	background-size: cover;
 	margin-left: 20px;
 	float: left;
 	background-color: white;
