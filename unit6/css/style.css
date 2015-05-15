@@ -41,9 +41,18 @@ h1 {
 	font-size: 2em;
 	color: #CC99FF;
 	font-weight: bold;
-	font-family: 'Rufina', serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
+h2 {
+	margin: 0 0 0 0;
+	padding-top:200px;
+	display: block;
+	font-size: 1.5em;
+	color: #cc99ff;
+	font-weight: bold;
+	font-family: 'Rufina', serif;
+}
 #image1 {
 	width:350px;
 	background-image: url("../images/image1.png");
