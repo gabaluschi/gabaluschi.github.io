@@ -75,9 +75,10 @@ h1 {
 
 
 #image2 {
-	width: 100%;
+	width: 350px;
 	background-image: url("../images/image2.jpg");
-	display: block;
+	background-repeat: no-repeat;
+	background-size: cover;
 	float: left;
 }
 
@@ -86,7 +87,10 @@ h1 {
 	filter: alpha(opacity=40);
 }
 #image3 {
+	width:350px;
 	background-image: url("../images/image3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 	float: left;
 }
 
