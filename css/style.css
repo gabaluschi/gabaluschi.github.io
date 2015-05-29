@@ -1,21 +1,287 @@
+
 body {
-	background: rgb(0,0,255);
+	background-color: #8ab7ee;
+	font-weight: 2em;
+	font-family: Montserrat, sans-serif;
+	box-sizing: border-box;	
+	margin: 0 auto;
+	height: 100%;
+	font-size: 24px;
 }
 
+a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover {
+	color: #B20000;
+}
+
+
+.clearfix:after {
+	
+	display: block;
+	font-size:0;
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	overflow:hidden;
+}
+
+.left {
+	margin-left: 1%;
+	float: left;
+}
+
+.right {
+	margin-right:1%;
+	float: right;
+}
+
+
+/*
+nav a{
+	display: block;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 30px 15px;
+	float: left;
+	color: 006600;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+*/
+.button {
+	padding: 1% 2%;
+	border-radius: .5%;
+	margin: 3% 1% 2% 1%;
+	border: .5% solid #4444ff;
+}
+
+.button:hover {
+	background-color: #B20000;
+	color: #ffffff;
+	border: 0.5% solid #B20000;
+
+}
+
+/*
+.logo{
+
+	font-size: 1.5em;
+	line-height:2em;
+	padding-top: 6%;
+	color: #3333FF;
+
+}
+*/
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #8ab7ee;
+}
+
+#media {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #8ab7ee;
+}
+
+
+header{
+	text-align: center;
+	height: auto;
+	padding-top: 0;
+}
 
 h1 {
-	color: yellow;
+	margin: 2%; 
+	padding-top:30%;
+	display: block;
 	font-size: 2em;
+	color: #FFF;
 	text-align: center;
-	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
 }
 
-p {
-	color: #FFFFFF;
-	font-family: 'Droid Serif', serif;
+h2 {
+	margin: 0 0 0 0;
+	padding-top:30%;
+	padding-bottom: 1%;
+	display: block;
+	font-size: 1.5em;
+	color: #FF66cc;
+	font-weight: bold;
+	font-family: 'Rufina', serif;
+}
+#image1 {
+	width: 33%;
+	background-image: url("/images/nap1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#slogan {
-	font-style: italic;
+
+
+#image2 {
+	width: 33%;
+	background-image: url("/images/nap2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+
+#image3 {
+	width: 33%;
+	background-image: url("/images/nap3.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#image1:hover, #image2:hover, #image3:hover {
+	opacity: 0.4;
+}
+
+#image1 a, #image2 a, #image3 a {
+	color: yellow;
+
+}
+
+.contentframe {
+	margin-left: 2%; 
+	margin-right: auto;
+	text-align: center;
+	padding-top: 1%;
+
+}
+
+
+footer {
+	background-color: #b2b2b2;
+	margin: 0 auto;
+	padding: 0 auto;
+	height: 50%;
+	width: 100%;
+}
+
+footer p {
+	font-size: 0.8em;
+	color: #000;
+	line-height: 2em;
+}
+
+footer li{
+	line-height: 2em;
+}
+
+.footer-logo {
+
+	line-height: 2em;
+}
+
+.sociallinks ul {
+	width: 20em;
+}
+
+.sociallinks li{
+	display: inline-block;
+	padding: 0 0.75em;
+}
+
+.sociallinks p {
+	padding-bottom: 1em;
+}
+.col1, .col2, .col3, .sociallinks{
+	float: left;
+	margin: 0 2%;
+	width: 21%;
+}
+
+.youtube{
+	background: url("../images/youtube.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 2%;
+	height: 4%;
+	float: right;
+	margin-right: 2%;
+}
+
+.twitter{
+	background: url("../images/twitter.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	width: 2%;
+	height: 4%;
+	float: right;
+	margin-right: 2%;
+}
+
+.facebook{
+	background: url("../images/facebook.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	width: 2%; 
+	height: 4%;
+	float: right;
+	margin-right:2%;
+
+}
+
+@media screen and (max-width: 768px) {
+	#image1 {
+		float: none;
+		width: auto;
+	}
+	#image2 {
+		float: none;
+		width: auto;
+	}
+	#image3 {
+		float: none;
+		width: auto;
+	}
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+
+	#image1 {
+		float: none;
+		width: auto;
+	}
+	#image2 {
+		float: none;
+		width: auto;
+	}
+	#image3 {
+		float: none;
+		width: auto;
+	}
+	body {
+		font-size: .5em;
+	}
+
+}
+
+
+
+

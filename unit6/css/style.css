@@ -26,6 +26,9 @@ a:hover {
 	clear: both;
 	height: 0;
 }
+.clearfix {
+	overflow:hidden;
+}
 
 .left {
 	margin-left: 20px;
